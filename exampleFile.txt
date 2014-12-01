@@ -1,0 +1,9 @@
+\d 	Eine Ziffer, entspricht [0-9].
+\D 	das Komplement von \d. Also alle Zeichen auﬂer den Ziffern, entpsricht der Klassennotation [^0-9].
+\s 	Ein Whitespace, also Leerzeichen, Tabs, Newlines und so weiter, entspricht der Klasse [ \t\n\r\f\v].
+\S 	Das Komplement von \s. Also alles auﬂer Whitespace, entspricht [^ \t\n\r\f\v].
+\w 	Alphanumerisches Zeichen plus Unterstrich, also [a-zA-Z0-9_]. Wenn die LOCALE gesetzt ist, matched es auch noch die speziellen Zeichen der LOCALE, also z.B. die Umlaute.
+\W 	Das Komplement von \w.
+\b 	Passt auf den leeren String, aber nur, wenn dieser am Anfang oder Ende eines Strings ist.
+\B 	Passt wie \b den leeren String, aber nur, wenn dieser nicht am Anfang oder Ende eines Strings ist.
+\\ 	Ein Backslash

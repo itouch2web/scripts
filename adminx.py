@@ -1,0 +1,7 @@
+xsite = ('www')
+xsite = input("Web Site for Scan?: ")
+xsite = site.replace("http://","")
+print ("\tChecking website ", xsite,"...")
+conn = httplib.HTTPConnection(xsite)
+conn.connect()
+print ("\t[$] Yes... Server is Online.")
